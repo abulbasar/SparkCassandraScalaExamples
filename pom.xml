@@ -19,8 +19,8 @@
 	</build>
 
 	<properties>
-		<sparkVersion>1.6.2</sparkVersion>
-		<scalaVersion>2.10</scalaVersion>
+		<sparkVersion>2.1.1</sparkVersion>
+		<scalaVersion>2.11</scalaVersion>
 	</properties>
 	<packaging>jar</packaging>
 	<dependencies>
@@ -51,11 +51,11 @@
 			<version>${sparkVersion}</version>
 		</dependency>
 		
-		      <dependency>
-            <groupId>com.datastax.spark</groupId>
-            <artifactId>spark-cassandra-connector_${scalaVersion}</artifactId>
-            <version>${sparkVersion}</version>
-        </dependency>
+		<dependency>
+            		<groupId>com.datastax.spark</groupId>
+            		<artifactId>spark-cassandra-connector_${scalaVersion}</artifactId>
+            		<version>2.0.2</version>
+        	</dependency>
 	</dependencies>
 
 </project>
