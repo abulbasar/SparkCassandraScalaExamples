@@ -1,3 +1,5 @@
+package main.scala
+
 import org.apache.spark.{SparkContext, SparkConf}
 import org.apache.spark.sql.SQLContext
 import org.apache.spark.sql.functions._
